@@ -3,9 +3,9 @@
 namespace Rush\Strategy;
 
 /**
- * Required Jade(https://github.com/kylekatarnls/jade-php)
+ * Required Pug(https://github.com/pug-php/pug)
  */
-class Jade implements \Rush\ViewStrategy
+class Pug implements \Rush\ViewStrategy
 {
     /**
      * @param string             $path    Template file path
@@ -15,7 +15,7 @@ class Jade implements \Rush\ViewStrategy
      */
     public function render($path, $params)
     {
-        $jade = new \Jade\Jade();
-        return $jade->render($path, $params);
+        $pug = new \Pug\Pug();
+        return $pug->render($path, $params);
     }
 }

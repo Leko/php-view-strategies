@@ -14,7 +14,7 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
                 'dwoo'  => '\\Rush\\Strategy\\Dwoo',
                 'foil'  => '\\Rush\\Strategy\\FOIL',
                 'fenom' => '\\Rush\\Strategy\\Fenom',
-                'jade'  => '\\Rush\\Strategy\\Jade',
+                'pug'   => '\\Rush\\Strategy\\Pug',
                 'latte' => '\\Rush\\Strategy\\Latte',
                 'php'   => '\\Rush\\Strategy\\Plates',
                 'tpl'   => '\\Rush\\Strategy\\Smarty',

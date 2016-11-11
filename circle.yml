@@ -1,0 +1,14 @@
+machine:
+  php:
+    version: 5.6.17
+
+dependencies:
+  override:
+    - composer install
+
+test:
+  override:
+    - composer lint
+    - composer test
+  post:
+    - bash <(curl -s https://codecov.io/bash)

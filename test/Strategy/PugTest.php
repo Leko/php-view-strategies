@@ -4,11 +4,11 @@ namespace Rush\Test\Strategy;
 
 use Rush\View;
 
-class JadeTest extends \Rush\Test\TestCase
+class PugTest extends \Rush\Test\TestCase
 {
     public function testRenderMustReturnRenderedString()
     {
-        $view = new View('simple.jade');
+        $view = new View('simple.pug');
         $rendered = $view->render(['name' => 'world']);
 
         $this->assertTrue(is_string($rendered));
