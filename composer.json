@@ -19,9 +19,14 @@
         "driver"
     ],
     "scripts": {
-        "test": [
+        "lint": [
             "phpcbf --standard=PSR2 src",
-            "phpmd src text .phpmd.xml",
+            "phpmd src text .phpmd.xml"
+        ],
+        "test": [
+            "mkdir -p templates_c",
+            "mkdir -p cache",
+            "chmod +w cache",
             "phpunit -c test/phpunit.xml"
         ]
     },
