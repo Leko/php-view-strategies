@@ -1,4 +1,5 @@
 # php-view-strategies
+[![CircleCI](https://circleci.com/gh/Leko/php-view-strategies/tree/master.svg?style=svg)](https://circleci.com/gh/Leko/php-view-strategies/tree/master)
 [![Latest Stable Version](https://poser.pugx.org/rush/view-strategies/v/stable)](https://packagist.org/packages/rush/view-strategies)
 [![License](https://poser.pugx.org/rush/view-strategies/license)](https://packagist.org/packages/rush/view-strategies)
 
