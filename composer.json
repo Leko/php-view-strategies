@@ -27,7 +27,7 @@
             "mkdir -p templates_c",
             "mkdir -p cache",
             "chmod +w cache",
-            "phpunit -c test/phpunit.xml"
+            "phpunit --coverage-clover=coverage.xml -c test/phpunit.xml"
         ]
     },
     "autoload": {
