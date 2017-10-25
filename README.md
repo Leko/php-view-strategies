@@ -1,3 +1,7 @@
+## Caution
+[[DEPRECATED]] This repository is no longer maintained.
+We'll delete this repository & unpublish package at 2017/12/31.
+
 # php-view-strategies
 [![CircleCI](https://circleci.com/gh/Leko/php-view-strategies/tree/master.svg?style=svg)](https://circleci.com/gh/Leko/php-view-strategies/tree/master)
 [![codecov](https://codecov.io/gh/Leko/php-view-strategies/branch/master/graph/badge.svg)](https://codecov.io/gh/Leko/php-view-strategies)
